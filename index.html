@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <img  style="display: none; image-rendering: pixelated;" id="Player" src='./Game/Sprites/player.png'>
+    <img  style="display: none; image-rendering: pixelated;" id="Tilemap" src='./Game/Sprites/tilemap.png'>
+    <img  style="display: none; image-rendering: pixelated;" id="Spritesheet" src='./Game/Sprites/spritesheet.png'>
+    <style>
+      body{
+        background-color: #514047;
+        display: flex;
+        width: 100vw !important;
+        height: 100vh !important;
+        overflow: hidden;
+      }
+      #canvas{
+        align-self: center;
+        margin: 0 auto !important;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas
+      id="canvas"
+      width="800"
+      height="800"
+      style="border: 10px solid #000000;"
+      >You need to enable javascript to run this app</canvas
+    >
+    <script type="text/javascript" src="./Game/index.js"></script>
+  </body>
+</html>
